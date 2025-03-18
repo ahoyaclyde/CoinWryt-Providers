@@ -16,7 +16,7 @@ from flask_sslify import SSLify
 import offchain_compass as OffInitializer 
 import cwtdb_controller as CWTInterface
 from utils import base_plugins as base
-
+# Ready
 #import Twilio_Content_Provider as Twilio_Service
 app=Flask(__name__)
 sslify = SSLify(app)
